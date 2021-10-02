@@ -1,0 +1,1 @@
+./RGBD /home/sun/aa/ORBSLAM2/ORB_SLAM2_modified/Vocabulary/ORBvoc.txt /home/sun/aa/ORBSLAM2/ORB_SLAM2_modified/Examples/RGB-D/mingjun.yaml /home/sun/Desktop/shuju /home/sun/Desktop/shuju/associations.txt

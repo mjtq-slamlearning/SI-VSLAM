@@ -1,0 +1,8 @@
+prefix=/home/sun/aa/catkin_octo/devel
+
+Name: octomap_server
+Description: Description of octomap_server
+Version: 0.6.6
+Cflags: -I/home/sun/aa/catkin_octo/devel/include -I/home/sun/aa/catkin_octo/src/octomap_mapping-kinetic-devel/octomap_server/include -I/opt/ros/melodic/include
+Libs: -L${prefix}/lib -loctomap_server /opt/ros/melodic/lib/liboctomap.so /opt/ros/melodic/lib/liboctomath.so
+Requires: roscpp visualization_msgs sensor_msgs pcl_ros pcl_conversions nav_msgs std_msgs std_srvs octomap_ros octomap_msgs dynamic_reconfigure nodelet

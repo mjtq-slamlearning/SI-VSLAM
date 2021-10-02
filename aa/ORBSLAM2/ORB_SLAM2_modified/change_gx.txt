@@ -1,0 +1,4 @@
+change by gx.
+
+* g2o is replaced by the original version. Please check ~/Documents/code/g2o_with_orbslam2/ for details.
+
