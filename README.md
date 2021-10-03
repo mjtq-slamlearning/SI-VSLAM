@@ -6,3 +6,6 @@ We have tested the library in Ubuntu 16.04 and 18.04. The experiment is performe
 SI-VSLAM is a semantic SLAM system based on ORB-SLAM2. In order to run SI-VSLAM, you have to install environment needed by ORB-SLAM2 (the section of 2. Prereguisites). The Bag of Words model can be downloaded from https://drive.google.com/file/d/1Q9idM_UqQjr032okKWlEkp4ZAfvy8MgR/view?usp=sharing, please put in the Vocabulary folder
 ## ROS (optional) 
 The version of ROS we are using is melodic. Considering that existing public data sets, such as TUM Benchmark, do not provide semantic image sequences, we used 3D scene simulation software Blender to make a semantic SLAM data set for testing. You can get perfect rgb images, depth images and semantic images through the Vision-Blender plugin (https://github.com/Cartucho/vision_blender, thanks for Cartucho's great work). 
+
+# License
+This implementation is based on ORB-SLAM2, which is licensed under the GNU GENERAL PUBLIC LICENSE Version 3 (GPLv3). Therefore we have to provide our modifications to the code under the same license.
