@@ -53,7 +53,7 @@ octomapserver:
 ```
 cd ../../../../../../catkin_octo/
 catkin_make 
-source /home/sun/aa/catkin_octo/devel/setup.bash ##here muss selbst machen
+source /home/sun/aa/catkin_octo/devel/setup.bash ##Change according to own requirements
 ```
 ## Dataset for semantic visual SLAM
 The version of ROS we are using is melodic. Considering that existing public data sets, such as TUM Benchmark, do not provide semantic image sequences, we used 3D scene simulation software Blender to make a semantic SLAM data set for testing. You can get perfect rgb images, depth images and semantic images through the Vision-Blender plugin (https://github.com/Cartucho/vision_blender, thanks for Cartucho's great work). This implementation is based on ORB-SLAM2, which is licensed under the GNU GENERAL PUBLIC LICENSE Version 3 (GPLv3). Therefore we have to provide our modifications to the code under the same license. You can download the data set from https://drive.google.com/file/d/1hAvfanOrBfE3KJph_J1dfe9gon1lkdHl/view?usp=sharing. You can also use your own data set, the original data format is 0001, 0002...，for data sets in other formats, please modify accordingly.
