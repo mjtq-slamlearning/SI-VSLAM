@@ -70,7 +70,7 @@ octomap:
 cd aa/catkin_octo/src/
 roslaunch octomap_server octomap_mapping.launch
 ```
-## add ColorOccupancyGrid
-## Octomap Topic /octomap_full
+//add ColorOccupancyGrid
+//Octomap Topic /octomap_full
 
 
