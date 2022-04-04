@@ -1,5 +1,8 @@
 # SI-VSLAM
 This is a universal semantic slam system for RGB-D camera based on ORB-SLAM2 and DS-SLAM (from https://github.com/raulmur/ORB_SLAM2, https://github.com/ivipsourcecode/DS-SLAM and https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map, thanks for Raul's, Gao Xiang's and Chao Yu's great work). The program has three inputs, corresponding to RGB sequence, depth sequence and semantic sequence.
+
+You can watch this conference paper presentation on Youtube to see more of our work: https://www.youtube.com/watch?v=EOlJpMNYCNg
+
 ![Flowchart of the SI-VSLAM architecture](https://github.com/mjtq-slamlearning/SI-VSLAM/blob/master/media/SI_VSLAM_Architecture.jpg?raw=true)
 
 Dynamic objects can be recognized by an additional neural network which can work independently from SI-VSLAM. Based on the segmented images, these dynamic objects are removed from the tracking thread and thus do not violate the static scene assumption. The program can selectively output semantic or RGB point clouds. The semantic octomap can only be used in the ROS environment and viewed through Rviz.
